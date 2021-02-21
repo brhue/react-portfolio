@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import "./App.css";
 
 import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
               <h1>Projects</h1>
             </Route>
             <Route path="/">
-              <h1>Home</h1>
+              <Home />
             </Route>
           </Switch>
         </div>

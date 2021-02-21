@@ -1,7 +1,7 @@
 :root {
   --text-color: #eee;
-  --background-color: #121212;
-  --link-color: #999;
+  --background-color: #14191e;;
+  --link-color: rgb(233, 206, 50);;
 }
 
 *,
@@ -27,12 +27,31 @@ code {
 a {
   color: var(--link-color);
   text-decoration: none;
+  position: relative;
 }
 
-a:hover {
-  text-decoration: underline;
-  position: relative;
-  top: 1px;
+a::after {
+  border-bottom: 2px solid currentColor;
+  content: '';
+  display: block;
+  left: 0;
+  padding-bottom: 2px;
+  position: absolute;
+  transition: all ease 0.35s;
+  width: 0%;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 .container {
