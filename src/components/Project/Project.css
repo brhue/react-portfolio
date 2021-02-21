@@ -1,0 +1,28 @@
+.project-card {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-card .title {
+  text-align: center;
+  margin-top: 0;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card .links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 440px) {
+  .project-card {
+    max-width: 50%;
+    flex: 1 1 auto;
+  }
+}

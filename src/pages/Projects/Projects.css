@@ -1,0 +1,10 @@
+.projects-list {
+  display: flex;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 440px) {
+  .projects-list {
+    flex-flow: row;
+  }
+}

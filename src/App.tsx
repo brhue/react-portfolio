@@ -5,6 +5,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import Projects from "./pages/Projects/Projects";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/projects">
-              <h1>Projects</h1>
+              <Projects />
             </Route>
             <Route path="/">
               <Home />
