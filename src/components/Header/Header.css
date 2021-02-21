@@ -1,0 +1,9 @@
+.Header nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.Header nav ul {
+  list-style: none;
+}
