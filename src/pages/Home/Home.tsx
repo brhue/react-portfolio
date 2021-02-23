@@ -13,7 +13,7 @@ export default function Home() {
           </a>
         </li>
         <li>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href={`${process.env.PUBLIC_URL}/resume.pdf`} target="_blank" rel="noopener noreferrer">
             resume
           </a>
         </li>
