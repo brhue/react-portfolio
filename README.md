@@ -1,5 +1,6 @@
 # react portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![My website](./assets/screenshot.png)
 ## Description
 A react version of my portfolio for practice.
 
@@ -19,8 +20,13 @@ run npm install
 ```
 
 ## Usage
+For development
 ```
 npm start
+```
+For production
+```
+npm run build
 ```
 
 ## License
@@ -30,9 +36,8 @@ npm start
 None right now.
 
 ## Tests
-```
 No real tests.
-```
+
 
 ## Questions
-If you have any questions you can reach out to me on [Github](https://github.com/brhue) or shoot me an [email](mailto:).
+If you have any questions you can reach out to me on [Github](https://github.com/brhue).
